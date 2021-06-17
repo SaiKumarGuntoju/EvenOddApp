@@ -1,0 +1,30 @@
+.page-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+}
+.card-container {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  padding: 20px;
+  width: 80%;
+}
+.description {
+  font-family: roboto;
+  font-family: 10px;
+}
+@media screen and (max-width: 576px) {
+  .description {
+    font-size: 6px;
+  }
+}
+.btn {
+  background-color: #ffffff;
+}
